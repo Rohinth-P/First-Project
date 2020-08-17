@@ -1,0 +1,68 @@
+
+header .container-fluid
+{
+  background-color:grey;
+  overflow: hidden;
+}
+.navbar-header>a
+{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    width:200px;
+}
+.navbar-header button.navbar-toggle{
+    background-color: gray;
+    border: 2px solid black;
+    margin-top: 15px;
+}.navbar-default .navbar-toggle .icon-bar{
+    background-color: red;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: white;
+}
+#collapsable-nav a{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}hr{
+    margin: 0px;
+    border-color: black;
+}
+#nav-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1
+{
+   text-align:center;
+}
+.row div{
+    height: 1250px;
+    margin-bottom: 30px;
+}
+.row #inner 
+{
+  background-color: grey;
+  border: 2px solid black;
+  padding: 15px;
+  color: black;
+  width: 100%;
+
+}
+#inner a
+{
+  background-color: lightgrey;
+  border: 1px solid black;
+  margin:10px 10px;
+  width: 150px;
+  text-align: center;
+  color: black;
+}
+#inner h3
+{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
